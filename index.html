@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaTech — Smart Gadgets, Smarter Living</title>
+    <meta name="description"
+        content="Discover premium gadgets, accessories, and smart devices with a modern shopping experience." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container nav-wrap"> 
+            <a href="#home" class="brand">
+                <span class="brand-mark">N</span>
+                <span>NovaTech</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="site-nav">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <label class="search-box" aria-label="Search">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M10.5 4.5a6 6 0 1 1 0 12 6 6 0 0 1 0-12Zm0 0 8.5 8.5" />
+                    </svg>
+                    <input type="text" placeholder="Search gadgets" />
+                </label>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="toggle-icon">☀️</span>
+                </button>
+                <button class="cart-pill" id="cart-pill" aria-label="Shopping cart">
+                    Cart <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Future-ready tech essentials</p>
+                    <h1>Upgrade Your Everyday with Smart, Beautiful Devices</h1>
+                    <p class="hero-text">
+                        Explore premium earbuds, wearable tech, and productivity gear designed to make your life faster
+                        and more connected.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#shop" class="btn btn-primary">Shop Collection</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <strong>4.9/5</strong>
+                            <span>Rated by 12k+ users</span>
+                        </div>
+                        <div>
+                            <strong>24/7</strong>
+                            <span>Premium support</span>
+                        </div>
+                        <div>
+                            <strong>Free</strong>
+                            <span>Express shipping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+                        alt="Modern smart device setup" />
+                    <div class="floating-badge">
+                        <span>New</span>
+                        <strong>Ultra Smart Watch</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="features">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Why shoppers choose us</p>
+                    <h2>Everything you need for a seamless tech lifestyle</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="icon-wrap">⚡</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Same-day dispatch and free express shipping on every order above $100.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-wrap">🛡️</div>
+                        <h3>Secure Checkout</h3>
+                        <p>Protected payments with instant confirmation and buyer-friendly guarantees.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-wrap">🎧</div>
+                        <h3>Curated Products</h3>
+                        <p>Handpicked devices from the world’s most loved brands and innovators.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-wrap">💬</div>
+                        <h3>Expert Support</h3>
+                        <p>Friendly specialists available by chat, email, or phone whenever you need help.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section shop-section" id="shop">
+            <div class="container">
+                <div class="section-heading split-row">
+                    <div>
+                        <p class="eyebrow">Featured products</p>
+                        <h2>Trending picks for modern living</h2>
+                    </div>
+                    <div class="filter-group" id="filter-group">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="audio">Audio</button>
+                        <button class="filter-btn" data-filter="gaming">Gaming</button>
+                        <button class="filter-btn" data-filter="wearables">Wearables</button>
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card" data-category="audio">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+                            alt="Noise-cancelling headphones" />
+                        <div class="product-info">
+                            <div class="product-topline">
+                                <span class="badge">Audio</span>
+                                <span class="rating">★ 4.8</span>
+                            </div>
+                            <h3>Zen Nova Headphones</h3>
+                            <p>Immersive sound with adaptive noise cancellation and 40-hour battery life.</p>
+                            <div class="product-bottom">
+                                <strong>$199</strong>
+                                <button class="add-btn">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="gaming">
+                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+                            alt="Gaming controller" />
+                        <div class="product-info">
+                            <div class="product-topline">
+                                <span class="badge">Gaming</span>
+                                <span class="rating">★ 4.9</span>
+                            </div>
+                            <h3>Pulse X Controller</h3>
+                            <p>Low-latency performance with ergonomic grip and customizable triggers.</p>
+                            <div class="product-bottom">
+                                <strong>$129</strong>
+                                <button class="add-btn">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="wearables">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+                            alt="Smart watch" />
+                        <div class="product-info">
+                            <div class="product-topline">
+                                <span class="badge">Wearables</span>
+                                <span class="rating">★ 4.7</span>
+                            </div>
+                            <h3>Aura Smart Watch</h3>
+                            <p>Track health, sleep, and workouts in a sleek, waterproof design.</p>
+                            <div class="product-bottom">
+                                <strong>$249</strong>
+                                <button class="add-btn">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-category="audio">
+                        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80"
+                            alt="Wireless earbuds" />
+                        <div class="product-info">
+                            <div class="product-topline">
+                                <span class="badge">Audio</span>
+                                <span class="rating">★ 4.8</span>
+                            </div>
+                            <h3>Lumen Earbuds Pro</h3>
+                            <p>Crystal-clear sound, ANC, and 18-hour battery in a pocket-sized case.</p>
+                            <div class="product-bottom">
+                                <strong>$149</strong>
+                                <button class="add-btn">Add to cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">About NovaTech</p>
+                    <h2>Built for people who love refined technology</h2>
+                    <p>
+                        We blend thoughtful design, premium performance, and helpful service to create a shopping
+                        experience that feels effortless from day one.
+                    </p>
+                    <p>
+                        Whether you are building your dream setup or gifting a loved one, our team is here to help you
+                        choose the right device with confidence.
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <article class="testimonial-slide active">
+                            <p>“The checkout experience was smooth, and the product quality exceeded my expectations.”
+                            </p>
+                            <div>
+                                <strong>Mina A.</strong>
+                                <span>Product Designer</span>
+                            </div>
+                        </article>
+                        <article class="testimonial-slide">
+                            <p>“I bought a headset and a watch together, and both arrived faster than promised.”</p>
+                            <div>
+                                <strong>Omar K.</strong>
+                                <span>Creative Lead</span>
+                            </div>
+                        </article>
+                        <article class="testimonial-slide">
+                            <p>“Every product feels premium and the support team is genuinely helpful.”</p>
+                            <div>
+                                <strong>Nora L.</strong>
+                                <span>Startup Founder</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="dot active" aria-label="Show testimonial 1"></button>
+                        <button class="dot" aria-label="Show testimonial 2"></button>
+                        <button class="dot" aria-label="Show testimonial 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div>
+                <a href="#home" class="brand footer-brand">
+                    <span class="brand-mark">N</span>
+                    <span>NovaTech</span>
+                </a>
+                <p>Premium gear for a smarter, more connected life.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+            <div>
+                <h3>Stay Updated</h3>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required />
+                    <button type="submit">Join</button>
+                </form>
+                <p class="form-message" id="form-message">Subscribe for launches and exclusive offers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
