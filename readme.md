@@ -11,7 +11,7 @@
 
 ### 🔗 الروابط
 - **رابط مستودع المشروع (GitHub Repo):** [https://github.com/omar77ibrahim11-creator/Modern-Tech-Store.git](https://github.com/omar77ibrahim11-creator/Modern-Tech-Store.git)
-- **رابط المعاينة المباشرة (Live Demo):** `[أدخل رابط المعاينة المباشرة هنا]` *(مثال: Vercel / Netlify)*
+- **رابط المعاينة المباشرة (Live Demo):** `[ https://omribrahim77.github.io/Tech-Store/]`
 
 ---
 
@@ -63,7 +63,7 @@
 
 ### 🔗 Project Links
 - **GitHub Repository:** [https://github.com/omar77ibrahim11-creator/Modern-Tech-Store.git](https://github.com/omar77ibrahim11-creator/Modern-Tech-Store.git)
-- **Live Demo:** `[Insert Live Demo Link Here]` *(e.g., Vercel / Netlify link)*
+- **Live Demo:** `[ https://omribrahim77.github.io/Tech-Store/]`
 
 ---
 
